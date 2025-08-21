@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #c3dcdc;
+  display: flex;
+  height: 100vh;
+}
+
+input{
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+input:focus{
+  outline: none;
+}
+
+form{
+  min-width: 280px;
+  width: 30%;
+}
+
+button {
+  margin-top: 20px;
+  padding: 8px 40px;
+  background-color: #006d65;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#root{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  width: 80%;
+  height: 80%;
+  min-width: 300px;
+  height: 85%;
+  border-radius: 2px;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.titleBox{
+  box-sizing: border-box;
+  background: rgb(12, 93, 65);
+  padding: 20px;
+  width: 100%;
+}
+
+.title{
+  font-size: 48px;
+  font-weight: lighter;
+}
+
+.titleSecondary{
+  font-size: 28px;
+  font-weight: lighter;
+  padding-bottom: 46.5px;
+}
+
+.subTitle{
+  margin: 0;
+  padding-top: 5px;
+  word-spacing: 10px;
+}
+
+.form-body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: black;
+  flex: 1;
+}
+
+.form-signup form{
+    width: 80%;
+    display: flex;
+    gap: 20px 20px;
+    flex-wrap: wrap;
+}
+
+.form-signup .input-group{
+    width: 40%;
+    flex: 0 0 calc(50% - 10px);
+}
+
+
+.input-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  font-size: 14px;
+  padding-left: 10px;
+  color: grey;
+}
+
+.inputBox{
+  border-bottom: solid 1px lightgrey;
+}
+
+.inputBox:focus-within{
+  border-bottom: solid 2px rgb(12, 93, 65);
+}
+
+.inputBox:focus-within label{
+  color: rgb(12, 93, 65);
+  font-weight: bold;
+}
+
+.error {
+  color: red;
+  padding:10px;
+  font-size: 14px;
+}
+
+.footer a{
+  color: black;
+}
+
+.actions{
+  flex: 0 0 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.signUpButton{
+  font-size: 16px;
+  font-weight:lighter ;
+  padding: 15px 80px;
+  border-radius: 10px;
+  align-self: flex-end;
+}
