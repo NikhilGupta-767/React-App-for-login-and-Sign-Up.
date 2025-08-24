@@ -97,6 +97,10 @@ button {
 .form-signup .input-group{
     width: 40%;
     flex: 0 0 calc(50% - 10px);
+    @media (max-width: 600px){
+      width: 100%;
+      flex: 0 0 100%;
+    }
 }
 
 
@@ -148,3 +152,4 @@ button {
   border-radius: 10px;
   align-self: flex-end;
 }
+
